@@ -110,4 +110,4 @@ with open(options.output_file, "w") as file:
     file.write("\n".join(output))
 
 print(
-    "Finished symbolicating, the output has been written to {0}", options.output_file)
+    "Finished symbolicating, the output has been written to {0}".format(options.output_file))
