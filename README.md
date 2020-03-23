@@ -2,7 +2,8 @@
 
 Symbolicate macOS or iOS crash reports easily.
 
-This script simply uses `atos` XCode tool to symbolicate crash reports.
+This script simply uses `atos` XCode tool to symbolicate crash reports as explained here:
+https://developer.apple.com/library/archive/technotes/tn2151/_index.html#//apple_ref/doc/uid/DTS40008184-CH1-SYMBOLICATE_WITH_ATOS
 
 ## Requirements
 
