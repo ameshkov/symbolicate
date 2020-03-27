@@ -80,7 +80,7 @@ def symbolicate_local_addr(load_addr, address):
 
 
 def symbolicate_line(line):
-    p = re.compile('[0-9]+ .*((0x[0-9a-e]+) (0x[0-9a-e]+)).*')
+    p = re.compile('[0-9]+ .*((0x[0-9a-f]+) (0x[0-9a-f]+)).*')
     m = p.match(line)
 
     if not m:
